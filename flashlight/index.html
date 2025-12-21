@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLASH</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .promo-bar {
+            text-align: center;
+            background: #222;
+            color: #fff;
+            padding: 7px;
+        }
+        header{
+            nav{
+                ul{
+                    list-style-type: none;
+                    text-align: center;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    padding-left: 0;
+                    padding-right: 0;
+
+                    li{
+                        border: 1px solid;
+                        border-radius: 20px;
+                        padding: 20px;
+                        display: inline-block;
+                        background-color: rgba(127, 255, 212, 0.384);
+                        
+                        a{
+                            text-decoration: none;
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+        .hero-section{
+            background: url(images/light.jpg);
+            background-color: gray;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center; 
+            min-height: calc(100vh - 136px);
+            text-align: center;
+            
+
+            h1{
+                text-align: center;
+                font-size: 3em;
+                padding: 40px;
+                color: #fff;
+                background-color: #7fffd421;
+            }
+
+            button{
+                padding: 20px 40px;
+                border-radius: 20px; 
+                border: none;
+                margin: 400px 20px 20px 20px;
+                font-size: 2em;
+                cursor: pointer;
+                
+            }
+            .learn-more-btn{
+                background-color: #fff;
+                font-weight: 400;
+            }
+
+            .learn-more-btn:hover{
+                background-color: rgba(202, 219, 198, 0.685)
+
+            }
+               
+            .shop-btn{
+                font-weight: 400;
+                background-color: rgba(34, 85, 85, 0.986);
+                color: #fff;
+            }
+
+            .shop-btn:hover{
+                background-color: #db0c0c49;
+            }
+        }
+
+        .features-section{
+            text-align: center;
+            padding: 40px;
+
+            h2{
+                padding: 10px;
+                font-size: 3em;
+
+            }
+
+            div{
+                width: 600px;
+                max-width: 100%;
+                margin: auto;
+                h3 {
+                    color: #df0707;
+                    font-size: 1.5rem;
+                    padding: none;
+                }
+
+                p {
+                    padding: 10px;
+                    text-align: left;
+
+                }
+            }    
+
+        }
+
+        .call-to-action-section{
+            text-align: center;
+            background-color: #0789df31;
+            
+            button.shop-now-btn{ 
+                padding: 20px;
+                border-radius: 10px;
+                border-color: #b9a6a67a;
+                margin-top: 10px;
+                font-size: 1em;
+                color: blue;
+                background-color: rgba(13, 3, 32, 0.438);
+               
+            }
+        }
+        footer {
+            margin-top: 40px;
+            background: #121212;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- promo banner -->
+    <div class="promo-bar">
+        <p>Get 10% off on your first purchase! Use code GL25</p>
+    </div>
+        
+    <!--navigation bar-->
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="shop.html">SHOP</a>
+                </li>
+                <li>
+                    <a href="About.html">About</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- hero section -->
+     <section class="hero-section">
+        <h1>GREEN LIGHT</h1>
+        <button class="learn-more-btn">Learn More</button>
+        <button class="shop-btn">SHOP</button>
+     </section>
+    
+    <!-- features section -->
+     <section class="features-section">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <img src="images/modes.PNG" width="100px" alt="fishing lure image">
+            <h3>5 Lighting Modes</h3>
+                <p>The front main light has 3 modes which is the strong mode (high brightness for long distance visibility). Weak mode for energy saving and the strobe light(Disorienting for self defense or signal).The side light has the White light and the Red-blue warning light.</p>
+        </div>
+        <div class="feature">
+            <img src="images/energy.PNG" width="100px" alt="energy Efficient image">
+            <h3>Energy Efficient</h3>
+                <p>The battery used is energy efficient due to its built-in 800mAh rechargeable lithium properties. Charging time is only 1 hour using USB Type C and cable included. The runtime is up to 100 minutes.
+                </p>
+        </div>
+        <div class="feature">
+            <img src="images/weather_proof.PNG" width="100px" alt="weather resistant image">
+            <h3>Weather Resistant</h3>
+                <p>Weather resistant features include sealed casings with O - rings, corrosion - resistant material due to its anodized aluminum, and an IPX rating that specifies its level of protection against water and dust which is the highest grade.</p>
+        </div>
+    </section>
+        <!-- About Section -->
+       
+        <!-- Call to Action Section -->
+         <section class="call-to-action-section">
+            <h2>Ready to experience brightness in your life?</h2>
+            <button class="shop-now-btn">Shop Now</button>
+         </section>
+        
+        <!-- Footer Section --> 
+        <footer>
+                <p>&copy;2025 Green Light Inc. All rights reserved.</p>
+        </footer>
+    
+</body>
+</html>
